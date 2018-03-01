@@ -1,0 +1,55 @@
+@import '~singers/file';
+div a{
+    text-decoration: $none;
+    padding: $pa;
+    padding-right: $pad;
+}
+div ul li{
+    list-style-type: $none;
+    display: $block;
+    padding: $pa;
+}
+.img{
+    border-radius: $pad2;
+}
+.pics{
+    border-radius: $hun;
+}
+@media(min-width:$nine){
+    .call-out-container{
+        display: $flex;
+        justify-content: $space;
+    }
+}
+.call-out{
+-webkit-box-shodow:$cal1;
+    -moz-box-shodow:$cal2;
+    box-shadow: $cal3;
+    overflow: $hidden;
+    margin-top: $mar;
+    padding: $mar; 
+    margin-bottom: $mar;  
+     flex: $box; 
+}
+.call-out:nth-child(1){
+    flex: $box;
+    background-color: $bac;
+    height:$hight; 
+
+}
+.call-out:nth-child(2){
+    flex: $box2;
+    background-color:$bac;
+}
+.flex-container{
+    display: $flex;
+}
+.flex-container__singers{
+    background-color:$bac;
+    margin: $pad2;
+    padding: $pad3;
+    font-size: $pa;
+}
+.flex-container div p{
+    text-align: $center;
+}
